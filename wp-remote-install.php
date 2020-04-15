@@ -6,7 +6,7 @@ error_reporting( E_ALL );
 
 // GitHub Information
 define( 'GITHUB_USERNAME' , 'chavindu' );
-define( 'GITHUB_PROJECT'  , 'WordPress-Remote-Installer' );
+define( 'GITHUB_PROJECT'  , 'WP-Remote-Installer' );
 
 // Version Information
 define( 'WPRI_VERSION'    , '0.4.1' );
