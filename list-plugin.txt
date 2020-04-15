@@ -1,3 +1,2 @@
 http://downloads.wordpress.org/plugin/classic-editor.1.5.zip
-http://trvelon.com/wp_plgns/wordpress-seo-premium.zip
 http://downloads.wordpress.org/plugin/updraftplus.1.16.23.zip
