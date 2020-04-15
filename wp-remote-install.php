@@ -177,12 +177,12 @@ switch( $step ){
         'result' => ini_get( 'allow_url_fopen' ) ,
         'pass' => '<strong>allow_url_open</strong> is Enabled' ,
         'fail' => '<strong>allow_url_open</strong> is Disabled'
-      ) ,
-      array(
-        'result' => !count( array_diff( glob( '*' ) , array( basename( __FILE__ ) , 'version.txt' ) ) ) ,
-        'pass' => 'The server is empty (apart from this file)' ,
-        'fail' => 'The server is not empty.'
-      )
+      ) //,
+ //     array(
+ //       'result' => !count( array_diff( glob( '*' ) , array( basename( __FILE__ ) , 'version.txt' ) ) ) ,
+   //     'pass' => 'The server is empty (apart from this file)' ,
+     //   'fail' => 'The server is not empty.'
+     // )
     );
 ?>
 <!-- STEP 1 //-->
