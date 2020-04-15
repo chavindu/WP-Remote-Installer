@@ -309,9 +309,9 @@ switch( $step ){
 ?>
 <!-- STEP 3 //-->
 <h1>Step 3/7: Installing Plugins</h1>
-<p>List the Download URLs for all WordPress Plugins, one per line</p>
+<p>Download URLs for all WordPress Plugins</p>
 <form method="post">
-  <textarea name="plugins" disabled><?php echo $suggest; ?></textarea>
+  <textarea name="plugins"><?php echo $suggest; ?></textarea>
   <input type="hidden" name="step" value="4" />
   <input type="submit" name="submit" value="Install Plugins" class="button button-large" />
 </form>
@@ -381,9 +381,9 @@ switch( $step ){
 ?>
 <!-- STEP 5 //-->
 <h1>Step 5/7: Installing Themes</h1>
-<p>List the Download URLs for all WordPress Themes, one per line</p>
+<p>Download URLs for all WordPress Themes</p>
 <form method="post">
-  <textarea name="themes" disabled><?php echo $suggest; ?></textarea>
+  <textarea name="themes"><?php echo $suggest; ?></textarea>
   <input type="hidden" name="step" value="6" />
   <input type="submit" name="submit" value="Install Themes" class="button button-large" />
 </form>
